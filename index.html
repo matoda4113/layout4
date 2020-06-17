@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contactbox {
+            background-color: rgba(0, 0, 0, 0.1);
+            box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+        }
+
+        header {
+            text-align: center;
+        }
+
+        header h1 {
+            color: skyblue;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .iconbox {
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+            padding: 5px;
+            vertical-align: middle;
+            background-color: blue;
+            font-size: 20px;
+            
+            /* box-sizing: border-box; */
+        }
+
+
+        input {
+            display: inline-block;
+            width: 90%;
+            height: 30px;
+            margin: 5px;
+            border: 1px solid black;
+        }
+
+        footer {
+            text-align: center;
+            padding: 35px;
+            
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: steelblue;
+            border: none;
+            color: white;
+        }
+
+        button:hover {
+            background-color: rgba(0, 0, 0, 0.3);
+
+        }
+
+        .fa {
+            color:white;
+            vertical-align: center ;
+            
+        }
+
+        
+        
+
+       
+    </style>
+</head>
+
+<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</body>
+<div class="contactbox">
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <main>
+        <div class="inputdiv box1">
+            <div class="iconbox">
+                <i class="fa fa-user"></i>
+            </div>
+            
+            <input type="text" value="First name">
+        
+        </div>
+        <div class="inputdiv box2">
+            <div class="iconbox" >
+                <i class="fa fa-user"></i>
+            </div>
+            <input type="text" value="First name">
+        </div>
+        <div class="inputdiv box3">
+            <div class="iconbox">
+                <i class="fa fa-envelope-o" ></i>
+            </div>
+            <input type="text" value="First name">
+        </div>
+        <div class="inputdiv box4">
+            <div class="iconbox">
+                <i class="fa fa-phone" style="font-size: 25px;"></i>
+            </div>
+            <input type="text" value="Phone">
+        </div>
+        <div class="inputdiv box5">
+            <div class="iconbox" style="background-color: blue;">
+                <i class="fa fa-pencil" ></i>
+            </div>
+            <input type="text" value="Message">
+        </div>
+
+
+
+    </main>
+    <footer>
+        <button>Send</button>
+        
+    </footer>
+</div>
+
+</html>
